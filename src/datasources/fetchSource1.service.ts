@@ -25,18 +25,3 @@ export class FetchSource1Service {
     }
   }
 }
-
-// export class FetchSource1Service {
-//   async fetch() {
-//     const source = 'https://coding-challenge.powerus.de/flight/source1';
-//     try {
-//       const response = await axios.get(source);
-//       return response.data;
-//     } catch (error) {
-//       console.error(`Error in ${source} request:`, error);
-//       return {
-//         flights: [],
-//       };
-//     }
-//   }
-// }
